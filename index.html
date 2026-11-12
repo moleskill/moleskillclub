@@ -1,785 +1,89 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#ffffff">
-
-    <meta
-        name="description"
-        content="MoleSkill Club — клуб вайбкодинга и публичных выступлений для учащихся Лицея при филиале МГУ в Душанбе."
-    >
-
-    <title>MoleSkill Club — От идеи к реальности</title>
-
-    <link rel="icon" href="logo.png">
-    <link rel="stylesheet" href="style.css">
-
-    <script src="main.js" defer></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MoleSkill Club — Лицей при филиале МГУ в Душанбе</title>
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<div class="progress-line" id="progressLine"></div>
-
-<!-- HEADER -->
-
-<header class="site-header">
-
-    <nav class="container">
-
-        <a href="#home" class="logo">
-            <img src="logo.png" alt="MoleSkill Club">
-            <span>MoleSkill <b>Club</b></span>
-        </a>
-
-        <div class="nav-links" id="menu">
-
-            <a href="#about">О клубе</a>
-            <a href="#directions">Направления</a>
-            <a href="#team">Команда</a>
-            <a href="#events">События</a>
-            <a href="#gallery">Галерея</a>
-            <a href="#faq">FAQ</a>
-
-        </div>
-
-        <a href="#apply" class="nav-btn">
-            Подать заявку ↗
-        </a>
-
-        <button
-            class="menu-btn"
-            id="menuBtn"
-            aria-label="Открыть меню"
-            aria-expanded="false"
-            aria-controls="menu"
-        >
-            ☰
-        </button>
-
-    </nav>
-
-</header>
-
-<main>
-
-    <!-- HERO -->
-
-    <section class="hero" id="home">
-
-        <div class="container hero-grid">
-
-            <div class="hero-content">
-
-                <span class="badge">
-                    <span class="badge-dot"></span>
-                    Технологическое сообщество • Душанбе
-                </span>
-
-                <h1>
-                    Будущее начинается
-                    <span>с твоей идеи.</span>
-                </h1>
-
-                <p>
-                    MoleSkill Club — пространство для учащихся
-                    Лицея при филиале МГУ в Душанбе.
-                    Здесь идеи превращаются в проекты,
-                    а навыки публичных выступлений помогают
-                    уверенно представлять их миру.
-                </p>
-
-                <div class="hero-buttons">
-
-                    <a href="#apply" class="btn">
-                        Стать участником ↗
-                    </a>
-
-                    <a href="#about" class="btn-outline">
-                        Узнать больше ↓
-                    </a>
-
-                </div>
-
-                <div class="hero-location">
-                    📍 Лицей при филиале МГУ, Душанбе
-                </div>
-
-            </div>
-
-            <div class="hero-visual">
-
-                <div class="visual-circle circle-1"></div>
-                <div class="visual-circle circle-2"></div>
-
-                <div class="visual-card main-card">
-
-                    <div class="card-header">
-                        <span class="window-dots">● ● ●</span>
-                        <span>idea.js</span>
-                    </div>
-
-                    <div class="code-content">
-
-                        <p>
-                            <span class="purple">const</span>
-                            idea =
-                            <span class="green">"Твой проект"</span>;
-                        </p>
-
-                        <p>
-                            <span class="purple">const</span>
-                            AI =
-                            <span class="blue">true</span>;
-                        </p>
-
-                        <br>
-
-                        <p>
-                            <span class="purple">function</span>
-                            <span class="blue">create</span>() {
-                        </p>
-
-                        <p class="indent">
-                            return
-                            <span class="green">"Будущее"</span>;
-                        </p>
-
-                        <p>}</p>
-
-                        <br>
-
-                        <p>
-                            <span class="blue">create</span>();
-                            <span class="cursor">|</span>
-                        </p>
-
-                    </div>
-
-                    <div class="code-footer">
-                        <span>● Готово к запуску</span>
-                        <span>JavaScript</span>
-                    </div>
-
-                </div>
-
-                <div class="floating-card float-one">
-                    ✨ AI Powered
-                </div>
-
-                <div class="floating-card float-two">
-                    🚀 Idea → Reality
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ABOUT -->
-
-    <section class="section container" id="about">
-
-        <div class="section-heading">
-
-            <span class="label">01 / О КЛУБЕ</span>
-
-            <h2>Место для новых возможностей</h2>
-
-            <p>
-                Технологии, творчество и уверенность
-                в собственных идеях.
-            </p>
-
-        </div>
-
-        <div class="about-grid">
-
-            <div class="about-text">
-
-                <h3>Что такое MoleSkill Club?</h3>
-
-                <p>
-                    MoleSkill Club — инициатива,
-                    направленная на развитие технологического
-                    мышления, креативности и навыков коммуникации.
-                </p>
-
-                <p>
-                    На первом этапе клуб предназначен
-                    исключительно для учащихся Лицея
-                    при филиале МГУ в Душанбе.
-                    В дальнейшем планируется расширение сообщества.
-                </p>
-
-                <div class="about-highlight">
-                    ✦ Главное — не только получить знания,
-                    но и научиться применять их на практике.
-                </div>
-
-            </div>
-
-            <div class="info-box">
-
-                <div class="info-item">
-                    <span>📍 Местоположение</span>
-                    <strong>Душанбе</strong>
-                </div>
-
-                <div class="info-item">
-                    <span>🏫 Участники</span>
-                    <strong>Учащиеся лицея</strong>
-                </div>
-
-                <div class="info-item">
-                    <span>💡 Формат</span>
-                    <strong>Практика и проекты</strong>
-                </div>
-
-                <div class="info-item">
-                    <span>📝 Вступление</span>
-                    <strong>По результатам отбора</strong>
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- DIRECTIONS -->
-
-    <section class="section gray-section" id="directions">
-
-        <div class="container">
-
-            <div class="section-heading">
-
-                <span class="label">02 / НАПРАВЛЕНИЯ</span>
-
-                <h2>Два направления. Множество возможностей.</h2>
-
-                <p>
-                    Навыки, которые помогают создавать
-                    и представлять идеи.
-                </p>
-
-            </div>
-
-            <div class="cards">
-
-                <article class="card">
-
-                    <div class="icon">⌘</div>
-
-                    <h3>Вайбкодинг</h3>
-
-                    <p>
-                        Создание сайтов, приложений и прототипов
-                        с помощью искусственного интеллекта.
-                        Работа с промптами, кодом и собственными идеями.
-                    </p>
-
-                    <div class="tags">
-                        <span>AI</span>
-                        <span>Разработка</span>
-                        <span>Проекты</span>
-                    </div>
-
-                </article>
-
-                <article class="card">
-
-                    <div class="icon">🎤</div>
-
-                    <h3>Публичные выступления</h3>
-
-                    <p>
-                        Развитие уверенной речи, аргументации
-                        и навыков презентации.
-                        Умение ясно представлять идеи
-                        и выступать перед аудиторией.
-                    </p>
-
-                    <div class="tags">
-                        <span>Презентации</span>
-                        <span>Pitching</span>
-                        <span>Коммуникация</span>
-                    </div>
-
-                </article>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- SELECTION -->
-
-    <section class="section container" id="selection">
-
-        <div class="section-heading">
-
-            <span class="label">03 / ВСТУПЛЕНИЕ</span>
-
-            <h2>Как стать участником?</h2>
-
-            <p>
-                Три простых шага для вступления в MoleSkill Club.
-            </p>
-
-        </div>
-
-        <div class="steps">
-
-            <div class="step">
-
-                <div class="step-number">01</div>
-
-                <h3>Заполни анкету</h3>
-
-                <p>
-                    Расскажи о своих интересах,
-                    идеях и мотивации.
-                </p>
-
-            </div>
-
-            <div class="step">
-
-                <div class="step-number">02</div>
-
-                <h3>Пройди отбор</h3>
-
-                <p>
-                    Организаторы рассмотрят заявку
-                    и оценят мотивацию кандидата.
-                </p>
-
-            </div>
-
-            <div class="step">
-
-                <div class="step-number">03</div>
-
-                <h3>Присоединяйся</h3>
-
-                <p>
-                    Отобранные участники получат
-                    информацию о дальнейших шагах.
-                </p>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- APPLICATION -->
-
-    <section class="section gray-section" id="apply">
-
-        <div class="container">
-
-            <div class="apply-box">
-
-                <div class="apply-decoration">✳</div>
-
-                <span class="label">НАБОР УЧАСТНИКОВ</span>
-
-                <h2>Твоя идея заслуживает возможности.</h2>
-
-                <p>
-                    MoleSkill Club приглашает заинтересованных
-                    учащихся лицея подать заявку
-                    на участие в отборе.
-                </p>
-
-                <div
-                    class="application-status"
-                    id="applicationStatus"
-                >
-                    Информация о наборе уточняется
-                </div>
-
-                <br>
-
-                <a href="#" class="btn" id="applyBtn">
-                    Подать заявку ↗
-                </a>
-
-                <small id="applyNote">
-                    Ссылка на анкету появится позже.
-                </small>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- TEAM -->
-
-    <section class="section container" id="team">
-
-        <div class="section-heading">
-
-            <span class="label">04 / КОМАНДА</span>
-
-            <h2>Люди за MoleSkill Club</h2>
-
-            <p>
-                За каждой большой идеей стоят люди,
-                готовые воплотить её в реальность.
-            </p>
-
-        </div>
-
-        <div class="team-grid">
-
-            <!-- LEADER -->
-
-            <article class="team-card team-leader">
-
-                <div class="team-photo">
-
-                    <img
-                        src="leader.jpg"
-                        alt="Поччоев Мухаммадсалмон"
-                        loading="lazy"
-                    >
-
-                    <span class="team-photo-badge">
-                        Club Lead
-                    </span>
-
-                </div>
-
-                <div class="team-info">
-
-                    <span class="team-role">
-                        FOUNDER & CLUB LEAD
-                    </span>
-
-                    <h3>Поччоев Мухаммадсалмон</h3>
-
-                    <p>
-                        Инициатор MoleSkill Club.
-                        Развивает сообщество, в котором
-                        технологии, творчество и идеи
-                        превращаются в реальные проекты.
-                    </p>
-
-                    <div class="team-tags">
-                        <span>Leadership</span>
-                        <span>Technology</span>
-                        <span>Innovation</span>
-                    </div>
-
-                </div>
-
-            </article>
-
-            <!-- FUTURE TEAM MEMBER -->
-
-            <article class="team-card team-empty">
-
-                <div class="team-empty-icon">+</div>
-
-                <h3>Новые лица. Новые идеи.</h3>
-
-                <p>
-                    Организационная команда
-                    MoleSkill Club продолжает формироваться.
-                </p>
-
-                <span class="team-coming">
-                    Coming soon
-                </span>
-
-            </article>
-
-            <!-- FUTURE TEAM MEMBER -->
-
-            <article class="team-card team-empty">
-
-                <div class="team-empty-icon">+</div>
-
-                <h3>Стань частью истории</h3>
-
-                <p>
-                    Впереди новые участники,
-                    совместные проекты и возможности.
-                </p>
-
-                <span class="team-coming">
-                    Coming soon
-                </span>
-
-            </article>
-
-        </div>
-
-    </section>
-
-
-    <!-- EVENTS -->
-
-    <section class="section gray-section" id="events">
-
-        <div class="container">
-
-            <div class="section-heading">
-
-                <span class="label">05 / СОБЫТИЯ</span>
-
-                <h2>Ближайшие мероприятия</h2>
-
-                <p>
-                    Встречи, практические занятия
-                    и новые возможности.
-                </p>
-
-            </div>
-
-            <div class="events-grid">
-
-                <article class="event-card">
-
-                    <div class="event-top">
-
-                        <span class="event-date">Скоро</span>
-
-                        <span class="event-status">
-                            Планируется
-                        </span>
-
-                    </div>
-
-                    <h3>Первая встреча клуба</h3>
-
-                    <p>
-                        Знакомство с участниками,
-                        обсуждение идей и планов MoleSkill Club.
-                    </p>
-
-                    <div class="event-footer">
-                        📍 Лицей при филиале МГУ
-                    </div>
-
-                </article>
-
-                <article class="event-card">
-
-                    <div class="event-top">
-
-                        <span class="event-date">Скоро</span>
-
-                        <span class="event-status">
-                            Планируется
-                        </span>
-
-                    </div>
-
-                    <h3>Vibe Coding Workshop</h3>
-
-                    <p>
-                        Разработка первых проектов
-                        с использованием современных
-                        инструментов искусственного интеллекта.
-                    </p>
-
-                    <div class="event-footer">
-                        💻 Практическое занятие
-                    </div>
-
-                </article>
-
-                <article class="event-card">
-
-                    <div class="event-top">
-
-                        <span class="event-date">Скоро</span>
-
-                        <span class="event-status">
-                            Планируется
-                        </span>
-
-                    </div>
-
-                    <h3>Public Speaking Session</h3>
-
-                    <p>
-                        Практика публичных выступлений,
-                        презентаций и уверенной подачи идей.
-                    </p>
-
-                    <div class="event-footer">
-                        🎤 Развитие навыков
-                    </div>
-
-                </article>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- GALLERY -->
-
-    <section class="section container" id="gallery">
-
-        <div class="section-heading">
-
-            <span class="label">06 / ГАЛЕРЕЯ</span>
-
-            <h2>Моменты из жизни клуба</h2>
-
-            <p>
-                Здесь появятся фотографии мероприятий,
-                встреч и проектов участников.
-            </p>
-
-        </div>
-
-        <div class="gallery-grid">
-
-            <div class="gallery-card">
-                <span class="gallery-icon">📸</span>
-                <span>Фото скоро появится</span>
-            </div>
-
-            <div class="gallery-card">
-                <span class="gallery-icon">📸</span>
-                <span>Фото скоро появится</span>
-            </div>
-
-            <div class="gallery-card">
-                <span class="gallery-icon">📸</span>
-                <span>Фото скоро появится</span>
-            </div>
-
-            <div class="gallery-card">
-                <span class="gallery-icon">📸</span>
-                <span>Фото скоро появится</span>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- FAQ -->
-
-    <section class="section container" id="faq">
-
-        <div class="section-heading">
-
-            <span class="label">07 / FAQ</span>
-
-            <h2>Частые вопросы</h2>
-
-        </div>
-
-        <div class="faq-list">
-
-            <details>
-
-                <summary>
-                    Кто может вступить в MoleSkill Club?
-                </summary>
-
-                <p>
-                    На данный момент только учащиеся
-                    Лицея при филиале МГУ в Душанбе.
-                </p>
-
-            </details>
-
-            <details>
-
-                <summary>
-                    Нужно ли уметь программировать?
-                </summary>
-
-                <p>
-                    Нет. Предварительный опыт не обязателен.
-                    Важны интерес к технологиям
-                    и желание учиться.
-                </p>
-
-            </details>
-
-            <details>
-
-                <summary>
-                    Как проходит отбор?
-                </summary>
-
-                <p>
-                    Первый этап — анкета Google Forms.
-                    После рассмотрения заявок организаторы
-                    сообщат о следующих шагах.
-                </p>
-
-            </details>
-
-            <details>
-
-                <summary>
-                    Можно ли вступить учащимся других школ?
-                </summary>
-
-                <p>
-                    Пока нет. В будущем планируется
-                    расширение MoleSkill Club
-                    за пределы лицея.
-                </p>
-
-            </details>
-
-        </div>
-
-    </section>
-
-</main>
-
-
-<!-- FOOTER -->
-
-<footer>
-
-    <div class="container footer-content">
-
-        <div class="footer-brand">
-
-            <img src="logo.png" alt="MoleSkill Club">
-
-            <div>
-                <strong>MoleSkill Club</strong>
-                <p>От идеи к реальности.</p>
-            </div>
-
-        </div>
-
-        <span>
-            © <span id="year"></span> MoleSkill Club
-        </span>
-
+<div class="header">
+  <div class="header-in">
+    <a class="logo" href="#top">MoleSkill Club</a>
+    <div class="menu">
+      <a href="#about">О клубе</a>
+      <a href="#learn">Чем занимаемся</a>
+      <a href="#how">Как проходит</a>
+      <a href="#leader">Лидер</a>
     </div>
+  </div>
+</div>
 
-</footer>
+<div class="hero" id="top">
+  <div class="visitka">
+    <h1>MoleSkill Club</h1>
+    <p class="small">Клуб программирования</p>
+    <p>Берёшь свою идею, делаешь её вместе с ИИ, а потом выходишь и рассказываешь о ней сам.</p>
+    <hr>
+    <p><b>Лидер:</b> Поччоев Мухаммадсалмон</p>
+    <p><b>Где:</b> Лицей при филиале МГУ имени М. В. Ломоносова, г. Душанбе</p>
+    <p><b>Чем:</b> ИИ, свои проекты, выступления</p>
+    <p><b>Набор:</b> откроется после разрешения директора</p>
+  </div>
+</div>
+
+<div class="main">
+
+  <div class="block" id="about">
+    <h2>О клубе</h2>
+    <p>MoleSkill Club это небольшой клуб програмирования при лицее филиала МГУ имени М. В. Ломоносова в Душанбе. Пока мы есть только здесь, в других местах такого нет.</p>
+    <p>Главное у нас не просто написать код, а чтобы у каждого был свой проект и его потом можно было нормально показать людям. ИИ помогает нам во всём этом, мы его не прячем, а наоборот учимся им пользоваться с головой.</p>
+  </div>
+
+  <h2 class="title" id="learn">Чем занимаемся</h2>
+  <div class="cards">
+    <div class="card">
+      <div class="icon"></div>
+      <h3>Работаем с ИИ</h3>
+      <p>Учимся нормально писать запросы, проверять ответы и не верить всему подряд. Код, тексты, идеи — всё можно делать вместе с ИИ.</p>
+    </div>
+    <div class="card">
+      <div class="icon"></div>
+      <h3>Делаем свою идею</h3>
+      <p>У каждого свой проект: сайт, бот, игра или что-то ещё. Идею придумываешь сам, мы помогаем довести до конца.</p>
+    </div>
+    <div class="card">
+      <div class="icon"></div>
+      <h3>Выступаем</h3>
+      <p>В конце проект надо показать. Готовим презентацию и рассказываем перед всеми. Сначала страшновато, потом привыкаешь.</p>
+    </div>
+  </div>
+
+  <div class="block" id="how">
+    <h2>Как всё проходит</h2>
+    <p>1. Придумываем идею (можно с помощью ИИ, можно без).</p>
+    <p>2. Делаем проект по частям, на занятиях и дома.</p>
+    <p>3. Показываем друг другу что получилось и по-доброму ругаем за баги.</p>
+    <p>4. Готовим выступление и рассказываем о проекте публично.</p>
+    <p class="small">Время занятий пока неизвестно, мы ждём разрешения от директора лицея. Как только скажут, напишем здесь.</p>
+  </div>
+
+  <div class="block leader" id="leader">
+    <img class="photo" src="leader.jpg" alt="Поччоев Мухаммадсалмон">
+    <div>
+      <h2>Лидер клуба</h2>
+      <p class="name">Поччоев Мухаммадсалмон</p>
+      <p>Если есть вопросы, подойди к нему в лицее. Канала в Telegram у нас пока нет, как появится, добавим ссылку сюда.</p>
+    </div>
+  </div>
+
+</div>
+
+<div class="footer">
+  <p>MoleSkill Club, Лицей при филиале МГУ, Душанбе</p>
+  <p class="small">Сайт сделан участниками клуба. Если нашли ошибку, скажите лидеру, исправим.</p>
+</div>
 
 </body>
 </html>
